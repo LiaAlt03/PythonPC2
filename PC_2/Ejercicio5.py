@@ -15,4 +15,4 @@ numero_principal=int(input("Ingrese un numero: "))
 digito_d=int(input("Ingrese el digito que desee contabilizar: "))
 
 cantidad=contador(numero_principal, digito_d)
-print(f"Cantidad de veces que se repite el numero {digito_d} en el numero ingresado: {cantidad}")
+print(f"Cantidad de veces que se repite el numero {digito_d} en el numero {numero_principal} es de: {cantidad}")
